@@ -1,5 +1,6 @@
 body {
-  background-image: url('linedpaper/linedpaper.png');
+  background-image: url('images/fikri-rasyid-ezeC8-clZSs-unsplash.jpg');
+  background-size: contain;
   width: 600px;
   margin: 0 auto;
   padding: 0;
@@ -7,8 +8,8 @@ body {
 }
 
 form {
-  color: #3498db;
-  font-size: 22px;
+  color: #000000;
+  font-size: 30px;
 }
 
 input[type="text"]{
@@ -17,21 +18,21 @@ input[type="text"]{
 
 #addNeed {
   background-color : #f8f8f8;
-  color: #3498db;
+  color: #000000;
 }
 
 #addHave {
   background-color : #f8f8f8;
-  color: #3498db;
+  color: #000000;
 }
 
 h1 {
-  color: #4183D7;
+  color: #12f5f1;
   font-size: 50px;
 }
 
 h2 {
-  color: #4183D7;
+  color: #12f5f1;
   font-size: 42px;
   letter-spacing: -2px;
   text-align: left;
@@ -51,7 +52,7 @@ h2 {
   height: auto;
   padding: 10px;
   text-transform: capitalize;
-  color: #3498db;
+  color: #621df7;
 }
 li a {
   float: right;
@@ -64,7 +65,5 @@ li a {
        (min-resolution: 2dppx),             /* The standard way */
        (min-resolution: 192dpi)             /* dppx fallback */
 {
-	body {
-		background-image: url('linedpaper/linedpaper_@2x.png');
-	}
+  
 }
